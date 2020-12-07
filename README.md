@@ -24,10 +24,10 @@ This is a CRUD application built using the PERN stack, (PostgreSQL, Express, Rea
 ## PC
 
 ### Home Page with all Restaurants
-![](https://github.com/tom-morgan00/Rate-au-Rant/blob/master/client/public/images/screenshots/1.png?raw=true)
+![](https://github.com/tom-morgan00/Rate-au-Rant/blob/master/client/public/screenshots/1.png?raw=true)
 
 ### Details page
-![](https://github.com/tom-morgan00/Rate-au-Rant/blob/master/client/public/images/screenshots/2.png?raw=true)
+![](https://github.com/tom-morgan00/Rate-au-Rant/blob/master/client/public/screenshots/2.png?raw=true)
 
 ### Edit Page
-![](https://github.com/tom-morgan00/Rate-au-Rant/blob/master/client/public/images/screenshots/3.png?raw=true)
+![](https://github.com/tom-morgan00/Rate-au-Rant/blob/master/client/public/screenshots/3.png?raw=true)
