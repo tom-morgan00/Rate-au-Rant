@@ -25,16 +25,16 @@ export default function AddRestaurant() {
   };
   // console.log(name, location, priceRange);
   return (
-    <div className="mb-4">
+    <div className="restaurant-form mb-4">
       <form action="">
-        <div className="form-row">
-          <div className="col">
+        <div className="form-row mx-2">
+          <div className="col ">
             <input
               value={name}
               onChange={(e) => setName(e.target.value)}
               type="text"
               className="form-control"
-              placeholder="name"
+              placeholder="Restaurant"
             />
           </div>
           <div className="col">
@@ -43,14 +43,14 @@ export default function AddRestaurant() {
               onChange={(e) => setLocation(e.target.value)}
               type="text"
               className="form-control"
-              placeholder="location"
+              placeholder="Location"
             />
           </div>
           <div className="col">
             <select
               value={priceRange}
               onChange={(e) => setPriceRange(e.target.value)}
-              className="custom-select my-1 mr-sm-2"
+              className="custom-select mr-sm-2"
             >
               <option disabled>Price Range</option>
               <option value="1">£</option>
@@ -61,6 +61,7 @@ export default function AddRestaurant() {
             </select>
           </div>
           <button
+            style={{ marginLeft: '4px', padding: '0 20px' }}
             onClick={(e) => onFormSubmit(e)}
             className="btn btn-primary"
             type="submit"

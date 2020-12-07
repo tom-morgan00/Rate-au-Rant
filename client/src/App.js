@@ -6,12 +6,14 @@ import EditPage from './routes/EditPage';
 
 export default function App() {
   return (
-    <div className="container">
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/restaurants/:id" exact component={DetailsPage} />
-        <Route path="/restaurants/:id/edit" exact component={EditPage} />
-      </Switch>
+    <div className="parent">
+      <div className="container">
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/restaurants/:id" exact component={DetailsPage} />
+          <Route path="/restaurants/:id/edit" exact component={EditPage} />
+        </Switch>
+      </div>
     </div>
   );
 }

@@ -39,8 +39,11 @@ export default function DetailsPage() {
     <div>
       {restaurant && (
         <>
-          <div className="header text-center">
-            <h1 className="display-2 ">{restaurant.restaurant.name}</h1>
+          <div
+            className="header text-center
+          p-3"
+          >
+            <h1 className="display-2">{restaurant.restaurant.name}</h1>
             <h4>
               {restaurant &&
                 renderReviews(
@@ -49,7 +52,7 @@ export default function DetailsPage() {
                 )}
             </h4>
           </div>
-          <div className="mt-3">
+          <div className="mt-3 pt-4">
             <Reviews reviews={restaurant} />
             <AddReviewForm id={id} />
           </div>

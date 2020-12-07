@@ -33,7 +33,7 @@ export default function UpdateRestaurantForm(props) {
   };
 
   return (
-    <div>
+    <div className="edit-form mt-5">
       <form>
         <div className="form-group">
           <label htmlFor="name">Name</label>

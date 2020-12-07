@@ -1,0 +1,29 @@
+.parent {
+  background-image: url('./images/backgorund.jpg');
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #ddd;
+}
+
+.icon-burger {
+  color: rgb(224, 159, 37);
+}
+
+.icon-utensils {
+  color: rgb(179, 179, 179);
+}
+
+.review-form {
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 1%;
+}
+
+.edit-form {
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 1%;
+}

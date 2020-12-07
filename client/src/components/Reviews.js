@@ -24,35 +24,6 @@ export default function Reviews({ reviews }) {
           </div>
         );
       })}
-      {/* 
-      <div
-        className="card text-white bg-primary mb-3 mr-4"
-        style={{ maxWidth: '30%' }}
-      >
-        <div className="card-header d-flex justify-content-between">
-          <span>Tom</span>
-          <span>
-            <StarRating rating={3.7} />
-          </span>
-        </div>
-        <div className="card-body">
-          <p className="card-text">This place is very good</p>
-        </div>
-      </div>
-      <div
-        className="card text-white bg-primary mb-3 mr-4"
-        style={{ maxWidth: '30%' }}
-      >
-        <div className="card-header d-flex justify-content-between">
-          <span>Tom</span>
-          <span>
-            <StarRating rating={3.7} />
-          </span>
-        </div>
-        <div className="card-body">
-          <p className="card-text">This place is very good</p>
-        </div>
-      </div> */}
     </div>
   );
 }

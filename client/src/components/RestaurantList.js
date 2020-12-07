@@ -51,7 +51,7 @@ export default function RestaurantList(props) {
 
   // console.log(restaurants);
   return (
-    <div className="list-group">
+    <div className="list-group pb-5">
       <table className="table table-hover table-dark">
         <thead>
           <tr className="bg-primary">

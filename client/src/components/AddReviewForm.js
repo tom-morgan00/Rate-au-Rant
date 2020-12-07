@@ -23,7 +23,7 @@ export default function AddReviewForm({ id }) {
     }
   };
   return (
-    <div className="mb-2">
+    <div className="review-form mb-2">
       <form onSubmit={(e) => onReviewSubmit(e, id)}>
         <div className="form-row">
           <div className="form-group col-8">
